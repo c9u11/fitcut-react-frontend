@@ -30,7 +30,7 @@ export default function Background() {
     <motion.svg
       width="100%"
       height="100%"
-      className="absolute top-0 left-0"
+      className="absolute top-0 left-0 bg-zinc-950 -z-1"
       initial="hidden"
       animate="visible"
     >
