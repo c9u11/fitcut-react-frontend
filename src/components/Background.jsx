@@ -18,11 +18,11 @@ const draw = {
 
 export default function Background() {
   const lines = [
-    { x1: 0, y1: 4, x2: 10, y2: 4 },
-    { x1: 1, y1: 0, x2: 1, y2: 4 },
+    { x1: 0, y1: 2, x2: 10, y2: 2 },
+    { x1: 1, y1: 0, x2: 1, y2: 2 },
     { x1: 2, y1: 0, x2: 2, y2: 10 },
     { x1: 8, y1: 0, x2: 8, y2: 10 },
-    { x1: 9, y1: 4, x2: 9, y2: 8 },
+    { x1: 9, y1: 2, x2: 9, y2: 8 },
     { x1: 0, y1: 8, x2: 10, y2: 8 },
     { x1: 9, y1: 6, x2: 10, y2: 6 }
   ];
@@ -30,7 +30,7 @@ export default function Background() {
     <motion.svg
       width="100%"
       height="100%"
-      className="absolute"
+      className="absolute top-0 left-0"
       initial="hidden"
       animate="visible"
     >
