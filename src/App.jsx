@@ -1,8 +1,12 @@
+import Background from "./components/Background";
+import Upload from "./pages/upload";
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Fit Insta Grid</h1>
-    </>
+    <div className="w-dvw h-dvh bg-zinc-950">
+      <Background />
+      <Upload />
+    </div>
   );
 }
 
