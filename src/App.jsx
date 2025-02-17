@@ -1,5 +1,5 @@
 import Background from "./components/Background";
-import Upload from "./pages/upload";
+import Upload from "./pages/Upload";
 
 function App() {
   return (
