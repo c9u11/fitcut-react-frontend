@@ -16,25 +16,19 @@ export default function () {
     };
   };
   return (
-    <div className="size-full flex-col flex text-white px-[20%]">
-      <div className="h-[10%] flex flex-col justify-center px-[30px] gap-2">
-        <h1 className="text-4xl font-semibold tracking-wide">FitCut</h1>
-        <h2 className="text-1xl">인스타그램 그리드에 맞게 사진 자르기</h2>
-      </div>
-      <div className="w-full h-[80%] flex flex-col justify-center items-center bg-zinc-900 gap-2 hover:bg-zinc-800 relative">
-        <FaImage className="text-zinc-400 h-[50px] w-[50px]" />
-        <span className="text-1xl text-center text-zinc-400">
-          PNG, JPG 형식
-          <br />
-          이미지 드래그 혹은 업로드
-        </span>
-        <input
-          type="file"
-          className="absolute inset-0 opacity-0 w-full h-full cursor-pointer"
-          accept="image/*"
-          onChange={handleImageUpload}
-        />
-      </div>
+    <div className="size-full flex flex-col justify-center items-center bg-zinc-900 gap-2 hover:bg-zinc-800 relative">
+      <FaImage className="text-zinc-400 h-[50px] w-[50px]" />
+      <span className="text-1xl text-center text-zinc-400">
+        PNG, JPG 형식
+        <br />
+        이미지 드래그 혹은 업로드
+      </span>
+      <input
+        type="file"
+        className="absolute inset-0 opacity-0 w-full h-full cursor-pointer"
+        accept="image/*"
+        onChange={handleImageUpload}
+      />
     </div>
   );
 }
